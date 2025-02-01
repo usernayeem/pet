@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    width: 1600px !important;
+    font-family: "Sora", serif !important;
+    margin: auto;
+}
+
+.product .cute-dog {
+    margin-left: -75px;
+}
+
+.product .card {
+    border: 0.1px solid gray;
+}
+
+.contact {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 640px) {
+    .everyday .cute-dog {
+        margin-left: -125px;
+    }
+
+    .everyday .cute-dog2 {
+        margin-left: -75px;
+    }
+}
